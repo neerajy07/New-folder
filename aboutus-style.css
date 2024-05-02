@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+}
+
+
+/*** Spinner ***/
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cta-bg-section {
+background-attachment: fixed;
+}
+.z-1 {
+z-index: 1;
+}
+.p-r {
+position: relative;
+}
+
+.bg_cover {
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.pt-100 {
+padding-top: 100px;
+}
+.align-items-center {
+-ms-flex-align: center !important;
+align-items: center !important;
+}
+.row {
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+}
+.service-item .bg-img{
+border-radius:2px;
+}
+.page-title-area {
+    background-image: url(images/page-bg-1.jpg);
+    filter: contrast(70%);
+}
+
+.page-title-area {
+    position: relative;
+    z-index:1;
+    padding-top:20%;
+}
+
+.bg_cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:white;
+    height: 550px;
+}
+
+.text-white {
+    color: white !important;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+span.breadcrumb-entryactive {
+
+    text-decoration: underline;
+}
+
+.page-title-area .gd-breadcrumb span.separator {
+    position: relative;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    border: 1px solid white;
+    vertical-align: middle;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+   
+.cta-bg-section {
+    background-attachment: fixed;
+}
+.cta-bg-section {
+    background-attachment: fixed;
+}
+.z-1 {
+    z-index: 1;
+    
+}
+.p-r {
+    position: relative;
+}
+
+
+.bg_cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+.page-title-area .page-title-inner h1.page-title {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.page-title-area .gd-breadcrumb {
+    padding: 23px 30px;
+    max-width: 775px;
+    margin: 0 auto;
+    padding-bottom: 235px;
+}
+
+span.separator {
+    position: relative;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    border: 1px solid black;
+    vertical-align: middle;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.content{
+    margin-top:10%;
+     width: 50%;
+}
+.own{
+    margin-top:-15%;
+    margin-left: 55%;
+    width: 50%;
+}
+.mainheading {
+    padding: 3%;
+    color:#0b3d2c;
+    font-size:20px;
+    font-weight: 600;
+    font-family: "montserrat";
+}
+.mainheadingneed{
+    color: white;
+    font-size:36px;
+    font-weight: 600;
+    
+}
+.subheading {
+    color:#0b3d2c;
+    font-size:35px;
+    font-weight: 700;
+    font-family: "montserrat";
+}
+
+.para {
+    line-height: 30px;
+    font-size:16px;
+    font-family: "roboto";
+}
+
+.para2 {
+    font-size: 18px;
+    font-family: "roboto";
+}
+
+.list {
+    font-weight: 300;
+    font-size: 18px;
+    font-family:"montserrat";
+}
+
+.icon {
+    line-height: 40px;
+    font-size:30px;
+    color: #0b3d2c;
+}
+
+ 
+
+.service-item .bg-img {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    z-index:1;
+}
+
+.service-item .service-text {
+    z-index:-1;
+    transition: .5s;
+    background-color: #0b3d2c;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+.service-item:hover .service-text {
+    background: rgba(218, 251, 215, 0.9);
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+.service-item * {
+    transition: .2;
+}
+
+.service-item:hover * {
+    color: #0b3d2c;
+}
+
+.service-item .btn {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    color: var(--dark);
+    background: #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.service-item:hover .btn {
+    width: 140px;
+}
+
+.fa-add:before,
+.fa-plus:before {
+    content: "\2b";
+    color: #0b3d2c;
+}
+
+.mainheading2 {
+    color: #0b3d2c;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*start modern farming */
+.features-section {
+
+position: relative;
+z-index: 1;
+padding-bottom: 50px;
+}
+
+.features-wrapper {
+
+position: relative;
+display: flex; 
+}
+
+.features-bg {
+flex:.9; 
+background-size: cover;
+background-position: center;
+height: 700px;
+
+}
+p{
+    font-family:"roboto";
+    font-size: 20px;
+    word-spacing: 5px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.features-bgc-content-box {
+flex: 1; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 30px;
+background-color: #0b3d2c;
+color: white; 
+}
+
+.features-content-box {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.section-title .sub-title {
+display: block;
+font-size: 22px;
+margin-left:7%;
+/* margin-bottom: 10px; */
+color:#f1d2a9;
+font-weight: 700;
+font-family:"montserrat";
+}
+.cta-content-box span{
+    color: #f1d2a9;
+    font-size: 22px;
+    font-family: "montserrat";
+    font-weight:700;
+}
+.cta-content-box h2{
+    font-size: 36px;
+    font-family: "montserrat";
+    margin-left:-10%;
+}
+.cta-content-box p{
+    font-family: "roboto";
+    font-size: 16px;
+    line-height: 30px;
+}
+.section-title h2 {
+padding:2% 5% 5%;
+margin-left:2%;
+font-size:36px;
+font-weight: 600;
+font-family: "montserrat";
+}
+
+.text {
+    padding: 2% 2% 2% 10%;
+}
+.single-features-item {
+margin-bottom: 30px;
+}
+
+.single-features-item .icon {
+position: relative;
+display: inline-block;
+margin-right: 15px;
+
+
+}
+
+.photo{
+    margin-top: 5%;
+    margin-left:18%;
+    display: flex;
+}
+.circle{
+    margin-left:40%;
+    width:60px;
+    height: 60px;
+    background-color:white;
+    border-radius: 50%;
+    border: 2px solid white;
+    z-index:1;
+}
+.circle i{
+    font-size:2rem;
+    text-align: center;
+    align-items: center;
+}
+.team-member h2{
+
+    color: #0b3d2c;
+}
+.single-features-item .icon i {
+font-size: 24px;
+}
+
+.single-features-item .text {
+display: inline-block;
+}
+
+.single-features-item .text h5.title {
+font-size: 18px;
+margin-bottom: 10px;
+font-weight: 700;
+}
+
+.single-features-item .text p {
+    font-size: 20px;
+    line-height: 22px;
+
+}
+.single-features-item{
+background-color: #fff;
+border-radius: 20px 20px 20px 20px;
+}
+.mainpara{
+color: #0b3d2c;
+padding: 20px 10px 0px 25px;
+font-weight: 700;
+}
+.subpara{
+color: black;
+padding: 0px  0px 0px 25px;
+}
+
+/* end modern farming */
+
+.team-member {
+
+    text-align:center;
+  }
+ 
+  .team-member h5 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .team-member p {
+    font-size: 16px;
+    color: #0b3d2c;
+    margin-bottom: 20px;
+  }
+  @media only screen and (min-width : 1024px)   {
+    .testimonial-container {
+        margin-left: 250px;
+        margin-top: 20px;
+     }
+     .cta-image-box .box-image{
+        width: 700px;
+        border-radius: 30px;
+      }
+      .team-member img {
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+    
+}
+ 
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .cta-image-box .box-image{
+        width: 400px;
+        margin-left: 300px;
+        border-radius: 30px;
+        margin-top: -50px;
+      
+      }
+      .team-member img {
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      
+       
+}
+@media only screen and (min-width : 320px) and (max-width :767px ) {
+    .cta-image-box .box-image{
+        width: 0px;
+      
+      }
+      .section-title .sub-title {
+        display: block;
+        font-size: 20px;
+         margin-bottom: 10px; 
+        color: #0b3d2c;
+        font-weight: 700;
+        font-family: poppins;
+        } 
+}
+  
+  .testimonial-container {
+    max-width: 800px; /* Adjust maximum width as needed */
+  }
+  .testimonial-container h2{
+    margin-top:10%;
+  }
+  .testimonial {
+    text-align: center;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  } 
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .testimonial p {
+    font-size: 20px;
+  }
+  .testimonial .name {
+    font-weight: bold;
+    color: #0b3d2c;
+  }
+  .testimonial .Profession{
+    color: #0b3d2c;
+  }
+  .carousel-inner {
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 300px; /* Set maximum height for the carousel */
+  }
+  .carousel-control-prev, .carousel-control-next {
+    cursor: pointer;
+    
+  }
+  .carousel-control-prev:hover, .carousel-control-next:hover {
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+ 
+
+  

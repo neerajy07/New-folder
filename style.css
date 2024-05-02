@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+height: 100%;
+width: 100%;
+background-color: #fcfaf7;
+}
+.pic{
+  width: 50%;
+}
+.pic img{
+  margin-top: 10%;
+  margin-left: 10%;
+  padding: 5%;
+  width: 500px;
+  height: 510px;
+}
+
+.content{
+  width: 50%;
+  margin-top:-34%;
+ margin-left: 50%;
+}
+
+.content p{
+  padding-left: 5%;
+  color: #0b3b0b;
+ font: 600 22px "montserrat";
+}
+.content  i{
+  padding-right: 10px;
+}
+.content h1{
+  padding-top: 3%;
+  color: #0b3b0b;
+  width: 80%;
+  font: 700 2.2rem "montserrat";
+}
+.pera p{
+  width: 90%;
+  margin-top:3%;
+  color:#2f2f2f;
+ font-size: 1rem;
+font: 400 16px "roboto";
+ line-height:30px;
+ margin-left: -5%;
+}
+
+.grid{
+  
+  width: 90%;
+  margin-top: 3%;
+  display: flex;
+  
+}
+.grid p{
+  
+  margin-left: 2%;
+}
+.first p{
+  padding-top: 5%;
+  word-spacing:5px;
+  font: 400 1rem "roboto";
+  color:#2f2f2f;
+}
+.sec p{
+  padding-top: 5%;
+  font: 400 1rem "roboto";
+  color:#2f2f2f;
+  word-spacing:5px;
+  
+}
+.grid2{
+  margin-top: 5%;
+  width: 90%;
+  display: flex;
+}
+.thd p{
+  padding-top: 5%;
+  font: 400 1rem "roboto";
+  color:#2f2f2f;
+  word-spacing:5px;
+}
+.forth p{
+  padding-top: 5%;
+  font: 400 1rem "roboto";
+  color:#2f2f2f;
+  text-align: start;
+  word-spacing:5px;
+}
+
+.content h4{
+  margin-top: 5%;
+  color: #0b3b0b;
+  font: 600 1.2rem "montserrat";
+}
+.grid  i{
+  font-size:1.6rem;
+}
+.grid2 i{
+  font-size:1.6rem;
+}
+
+/* second page */
+.content-sec{
+  width: 100%;
+  height: 100%;
+}
+
+.content-sec h2,h1{
+  text-align: center;
+}
+.content-sec h2{
+  font: 600 1.4rem "montserrat";
+  margin-top:6%;
+  color: #0b3b0b;
+  word-spacing: 6px;
+}
+.content-sec h1{
+  color: #0b3b0b;
+  margin-top:2%;
+  font: 700 2rem "montserrat";
+}
+
+.card{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+  background-color:white;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.card1{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fcfaf7;
+  width: 30%;
+  height: 40%;
+  border: 1px solid white;
+  border-radius:5%;
+  
+}
+.card1:hover{
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card2{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fcfaf7;
+  width: 30%;
+  height: 40%;
+  border: 1px solid white;
+  border-radius:5%;
+}
+.card2:hover{
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card3{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fcfaf7;
+  width: 30%;
+  height: 40%;
+  border: 1px solid white;
+  border-radius:5%;
+}
+.card3:hover{
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card4{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fcfaf7;
+  border-radius:5%;
+  width: 30%;
+  height: 50%;
+  border: 1px solid whitek;
+
+}
+.card4:hover{
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-text{
+  font: 400 1rem "roboto";
+  color: #2f2f2f;
+line-height:28px;
+word-wrap:nowrap;
+  margin:14% 7%;
+
+}
+.card-body{
+  margin-top:-18%;
+  margin-left: 10%;
+  width:100px;
+  height: 100px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color:white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-body:hover{
+  background-color: #F8C794;
+}
+
+.card-body img{
+ 
+  padding: 10px;
+}
+.cir{
+  margin-top:19%;
+  margin-left: 8%;
+  padding:8%;
+  width: 40px;
+  height: 40px;
+  border:.1px solid black;
+  border-radius: 50%;
+  
+}
+.card i{
+  margin-top:-15%;
+  margin-left: 7%;
+  font-size:100px;
+  font-weight: 400;
+  font-size: 40px;
+  transform: rotateZ(-55deg);
+  margin-bottom: 10%;
+}
+.cir:hover{
+  background-color: #F8C794;
+}
